@@ -9,8 +9,8 @@ const Counter = () => {
 
   return (
     <div>
-        <h1>Hitungan: {count}</h1>
-        <button onClick={handleClick}>Tambah</button>      
+        <h1 className='text-5xl font-bold mb-8'>Hitungan: {count}</h1>
+        <button className='bg-zinc-700 hover:bg-zinc-900 font-bold py-2 px-4 border border-white rounded mb-8' onClick={handleClick}>Tambah</button>      
     </div>
   )
 }
